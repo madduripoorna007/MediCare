@@ -1,13 +1,5 @@
 # ------------------------------------HEALTH PORTAL-----------------------------------------
-"""
-CONTRIBUITIONS:
 
-Ganesh Madduri--- line 50 to 218
-Poojitha P--- line 223 to 373
-Harsha--- line 382 to 463 & 948 to 1042
-Poojitha T--- line 465 to 613
-Alok--- line 615 to 947
-"""
 
 import os
 import csv
@@ -48,7 +40,6 @@ ensure_file_exists(MEDICAL_DETAILS_CSV, [
 ensure_file_exists(USERS_CSV, [
     "id", "username", "name", "password", "role", "email", "phone", "dob", "gender", "bill_ids", "emergency_contact"
 ])
-# Ganesh begins-----------------------------------------------------------------------------------------------
 
 
 def parse_list_string(value):
@@ -216,11 +207,8 @@ def verify_login(username, password, data):
         return matched.iloc[0].to_dict()
     return None
 
-# ganesh upto here--------------------------------------------------------------------------------------------
-
 
 # Doctor Management (Admin)
-# poojitha p begins---------------------------------------------------------------------------------------------
 def add_doctor(doctor_info, data):
     # Add a new doctor row into doctors DataFrame and save.
     docs = data["doctors"]
@@ -371,13 +359,10 @@ def view_doctor_performance(doctor_id, data):
     }
     return summary
 
-# poojitha p upto here---------------------------------------------------------------------------------------------
-
 # -----------------------------
 # Appointments Management
 # -----------------------------
 
-# Harsha begins-------------------------------------------------------------------------------------------------
 
 
 def view_all_appointments(data):
@@ -460,10 +445,6 @@ def search_doctor(filters, data):
         df = df[df["consultation_modes"].str.contains(
             str(mode), case=False, na=False)]
     return df
-
-# Harsha ends---------------------------------------------------------------------------------------------------
-
-# poojita T begins---------------------------------------------------------------------------------------------
 
 
 def revenue_summary(data):
@@ -606,11 +587,6 @@ def get_user_medical_records(user_id, data):
     user_meds = meds[meds["user_id"].astype(str) == str(user_id)]
     return user_meds
 
-
-# Poojitha T's code ends---------------------------------------------------------------------------------------------
-
-
-# Alok's code starts here----------------------------------------------------------------------------------------------
 
 # health_portal
 
@@ -1039,8 +1015,7 @@ class HealthPortal:
                 continue
 
 
-# Harsha's code ends-----------------------------------------------------------------------------------------------------------------------------------
-# -----------------------------
+
 # If run directly, start portal
 # -----------------------------
 if __name__ == "__main__":
