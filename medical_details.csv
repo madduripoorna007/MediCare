@@ -1,0 +1,11 @@
+bill_id,user_id,bill_amount,paid,diseases,medicines,prescription
+1,1,500,unpaid,"[""Hypertension""]","[""Amlodipine""]",Take Amlodipine as directed. Follow-up in 2 weeks.
+2,2,750,paid,"[""Diabetes""]","[""Metformin""]",Take Metformin as directed. Follow-up in 2 weeks.
+3,3,1000,unpaid,"[""Flu""]","[""Paracetamol""]",Take Paracetamol as directed. Follow-up in 2 weeks.
+4,4,1250,paid,"[""Migraine""]","[""Sumatriptan""]",Take Sumatriptan as directed. Follow-up in 2 weeks.
+5,5,1500,paid,"[""Allergy""]","[""Cetirizine""]",Take Cetirizine as directed. Follow-up in 2 weeks.
+6,6,1750,unpaid,"[""Eczema""]","[""Hydrocortisone""]",Take Hydrocortisone as directed. Follow-up in 2 weeks.
+7,7,2000,paid,"[""Asthma""]","[""Salbutamol""]",Take Salbutamol as directed. Follow-up in 2 weeks.
+8,8,2250,paid,"[""Thyroid""]","[""Levothyroxine""]",Take Levothyroxine as directed. Follow-up in 2 weeks.
+9,9,2500,unpaid,"[""Back Pain""]","[""Ibuprofen""]",Take Ibuprofen as directed. Follow-up in 2 weeks.
+10,10,2750,paid,"[""Depression""]","[""Sertraline""]",Take Sertraline as directed. Follow-up in 2 weeks.

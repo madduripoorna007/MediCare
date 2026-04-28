@@ -1,0 +1,14 @@
+id,username,name,role,email,phone,dob,gender,bill_ids,emergency_contact,password
+1,admin,Admin User,admin,admin@example.com,9000000010,1980-01-01,M,[1],"{""name"": ""Contact_1"", ""phone"": ""98100000""}",240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9
+2,arjun,Arjun Sen,client,arjun@example.com,9000000011,1992-03-12,M,[2],"{""name"": ""Contact_2"", ""phone"": ""98100001""}",572350dbd3dca1b229beee04f34710f1b9c0b71bb1da4ba8fda3161a85109a73
+3,bina,Bina Roy,client,bina@example.com,9000000012,1986-07-22,F,[3],"{""name"": ""Contact_3"", ""phone"": ""98100002""}",b90acfa570df52ba5a7d68ec3d12c2f895a250b0378817ef5f3bddb2a39b9fed
+4,chirag,Chirag Das,client,chirag@example.com,9000000013,1990-11-05,M,[4],"{""name"": ""Contact_4"", ""phone"": ""98100003""}",e6d12f1658709a376cf3a2d74488fba55c4104984d03be886573d4cd122c7844
+5,deepa,Deepa Nair,client,deepa@example.com,9000000014,1995-05-16,F,[5],"{""name"": ""Contact_5"", ""phone"": ""98100004""}",623dcb2720712d22edb31e7981f4f080cef9d0ab94b57043518660f30c348749
+6,esha,Esha Gupta,client,esha@example.com,9000000015,1993-08-09,F,[6],"{""name"": ""Contact_6"", ""phone"": ""98100005""}",37f0061fc492b03d81c778edc49ce13006a426d49765907e1ce95d16a0e631fe
+7,farhan,Farhan Khan,client,farhan@example.com,9000000016,1988-02-02,M,[7],"{""name"": ""Contact_7"", ""phone"": ""98100006""}",eac738867401fd098e2112bd5b3f61e8ae095b9a64ca035c7f3b0cb31d662b07
+8,gita,Gita Patel,client,gita@example.com,9000000017,1991-12-12,F,[8],"{""name"": ""Contact_8"", ""phone"": ""98100007""}",c02ded4e1a87a53e4741c7ce40fc1d810b722a4e32c63d2fcb821795ad0b8ab1
+9,himanshu,Himanshu Lal,client,himanshu@example.com,9000000018,1994-04-04,M,[9],"{""name"": ""Contact_9"", ""phone"": ""98100008""}",5f0c00ebe4d76b8d79fd08b9ef5363c0be250d6327b9736afaf03a481d5681eb
+10,isha,Isha Mehta,client,isha@example.com,9000000019,1996-09-30,F,[10],"{""name"": ""Contact_10"", ""phone"": ""98100009""}",de11b1837e4fb6077395e7e308174d746efa2d2130c8edeca25b56e77fd2fc2d
+11,alokanand051,Alok Kumar,client,alokanand051@gmail.com,6203885520,,,[],{},d81dd013479ea81c7567f3a084f1ced5d7abc64506c554e00a4ec4183d410072
+12,alok,Alok Kumar,client,alok@gmail.com,62038,,,[],{},alok
+13,naughtysilverhand,Morgan Blackhand,admin,,,,,[],{},password

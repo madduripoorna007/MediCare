@@ -1,0 +1,11 @@
+id,user_id,doctor_id,start_time,end_time,status,fees,payment_status,booking_time,bill_id,symptoms_summary,created_by
+1,1,1,2025-10-29T14:00:00,2025-10-29T14:15:00,canceled,500,paid,2025-10-19T14:00:00,1,"Fever, cough",1
+2,2,2,2025-10-30T11:00:00,2025-10-30T11:15:00,booked,600,pending,2025-10-26T11:00:00,2,"Headache, nausea",1
+3,3,3,2025-10-31T12:00:00,2025-10-31T12:15:00,booked,700,pending,2025-10-29T12:00:00,3,"Fever, cough",1
+4,4,4,2025-11-01T13:00:00,2025-11-01T13:15:00,canceled,800,paid,2025-10-26T13:00:00,4,"Headache, nausea",1
+5,5,5,2025-11-02T11:00:00,2025-11-02T11:15:00,canceled,900,paid,2025-10-29T11:00:00,5,"Fever, cough",1
+6,6,6,2025-11-03T15:00:00,2025-11-03T15:15:00,canceled,1000,pending,2025-10-24T15:00:00,6,"Headache, nausea",1
+7,7,7,2025-11-04T15:00:00,2025-11-04T15:15:00,confirmed,1100,pending,2025-11-01T15:00:00,7,"Fever, cough",1
+8,8,8,2025-11-05T13:00:00,2025-11-05T13:15:00,completed,1200,paid,2025-10-27T13:00:00,8,"Headache, nausea",1
+9,9,9,2025-11-06T11:00:00,2025-11-06T11:15:00,canceled,1300,pending,2025-11-02T11:00:00,9,"Fever, cough",1
+10,10,10,2025-11-07T10:00:00,2025-11-07T10:15:00,canceled,1400,paid,2025-11-02T10:00:00,10,"Headache, nausea",1
